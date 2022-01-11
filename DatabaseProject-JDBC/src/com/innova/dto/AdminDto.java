@@ -15,6 +15,11 @@ public class AdminDto {
        this.adminName=adminName;
        this.adminSurname=adminSurname;
     }
+    public AdminDto(int id,String adminName,String adminSurname){
+        this.adminID=id;
+        this.adminName=adminName;
+        this.adminSurname=adminSurname;
+    }
     public String getAdminName() {
         return adminName;
     }
