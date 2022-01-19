@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Test {
     public static void main(String[] args) {
-        AdminController adminController=new AdminController();
+     /*   AdminController adminController=new AdminController();
 
         //create admin
         AdminDto adminDto=new AdminDto();
@@ -22,6 +22,7 @@ public class Test {
             System.out.println(admin.getAdminID()+" "+admin.getAdminName()+" "+admin.getAdminSurname());
         }
 
+*/
 
     }
 }
