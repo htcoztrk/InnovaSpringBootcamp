@@ -8,18 +8,21 @@ public class AdminDto {
     private String adminSurname;
     private Date createdDate;
 
-    public AdminDto(){
+    public AdminDto() {
 
     }
-    public AdminDto(String adminName,String adminSurname){
-       this.adminName=adminName;
-       this.adminSurname=adminSurname;
+
+    public AdminDto(String adminName, String adminSurname) {
+        this.adminName = adminName;
+        this.adminSurname = adminSurname;
     }
-    public AdminDto(int id,String adminName,String adminSurname){
-        this.adminID=id;
-        this.adminName=adminName;
-        this.adminSurname=adminSurname;
+
+    public AdminDto(int id, String adminName, String adminSurname) {
+        this.adminID = id;
+        this.adminName = adminName;
+        this.adminSurname = adminSurname;
     }
+
     public String getAdminName() {
         return adminName;
     }

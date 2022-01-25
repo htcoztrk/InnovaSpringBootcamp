@@ -8,26 +8,26 @@ import javax.interceptor.InvocationContext;
 @InterceptorInterface
 public class InterceptorMethod {
 
-	@AroundInvoke
-	public Object aroundInvoke(InvocationContext context) throws Exception {
-		
-		System.out.println("önceki durumum " + context.getMethod().getName() + " " + context.getClass());
-		
-		// yol kesici hani nerde
-		// database sorgulama yaptık,session ?
-		boolean isLogin = false;
-		Object isContinue = null;
-		if (isLogin) {
-			System.out.println("Öncelikle üye olunuz !!! üye sayfasına yönlendiriliyorsunuz");
-			return null;
-		} else {
-			try {
-				isContinue = context.proceed();// mühürledik artık devam edebilir.
-				System.out.println(" Login olduuktan sonra : Yönlendirme yapılıyor ADmin sayfasına gidiyorsunuz");
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-		}
-		return isContinue;
-	}
+    @AroundInvoke
+    public Object aroundInvoke(InvocationContext context) throws Exception {
+
+        System.out.println("önceki durumum " + context.getMethod().getName() + " " + context.getClass());
+
+        // yol kesici hani nerde
+        // database sorgulama yaptık,session ?
+        boolean isLogin = false;
+        Object isContinue = null;
+        if (isLogin) {
+            System.out.println("Öncelikle üye olunuz !!! üye sayfasına yönlendiriliyorsunuz");
+            return null;
+        } else {
+            try {
+                isContinue = context.proceed();// mühürledik artık devam edebilir.
+                System.out.println(" Login olduuktan sonra : Yönlendirme yapılıyor ADmin sayfasına gidiyorsunuz");
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+        return isContinue;
+    }
 }

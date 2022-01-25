@@ -3,12 +3,12 @@ package com.innova.databaseHomework.alternative;
 import javax.enterprise.inject.Alternative;
 
 @Alternative
-public class Postgresql implements IDatabase{
+public class Postgresql implements IDatabase {
 
-	@Override
-	public String databaseName() {
-		// TODO Auto-generated method stub
-		return "PostgreSQL";
-	}
+    @Override
+    public String databaseName() {
+        // TODO Auto-generated method stub
+        return "PostgreSQL";
+    }
 
 }

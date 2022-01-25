@@ -8,12 +8,12 @@ import javax.inject.Named;
 
 @Named("interceptorAOP")
 @ApplicationScoped
-public class AopBean implements Serializable{
+public class AopBean implements Serializable {
 
-	@Inject
-	private Login login;
-	
-	public String getLogin() {
-		return login.isLogin();
-	}
+    @Inject
+    private Login login;
+
+    public String getLogin() {
+        return login.isLogin();
+    }
 }

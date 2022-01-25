@@ -8,12 +8,13 @@ import javax.inject.Named;
 
 @Named(value = "qualifierCDI")
 @ApplicationScoped
-public class QualifierDatabaseManager implements Serializable{
+public class QualifierDatabaseManager implements Serializable {
 
-	@Inject
-	@QualifierCokluSecim
-	private IDatabase databaseInterface;
-	public String getDatabaseName() {
-		return databaseInterface.databaseName();
-	}
+    @Inject
+    @QualifierCokluSecim
+    private IDatabase databaseInterface;
+
+    public String getDatabaseName() {
+        return databaseInterface.databaseName();
+    }
 }

@@ -8,9 +8,10 @@ import javax.inject.Named;
 @ApplicationScoped
 public class DatabaseManager {
 
-	@Inject
-	IDatabase databaseInterface;
-	public String getDatabaseName() {
-		return databaseInterface.databaseName();
-	}
+    @Inject
+    IDatabase databaseInterface;
+
+    public String getDatabaseName() {
+        return databaseInterface.databaseName();
+    }
 }

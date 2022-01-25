@@ -10,21 +10,21 @@ import javax.inject.Named;
 @Named(value = "tuketenCDI")
 @ApplicationScoped
 public class InjectExample implements Serializable {
-	
-	// tuketen
-	@Inject
-	private List<String> tuketenList;
-	
-	public List<String> getTuketenList() {
-		return tuketenList;
-	}
-	
-	@Inject
-	private String resultInject;
-	
-	public String getResultInject() {
-		return resultInject;
-	}
+
+    // tuketen
+    @Inject
+    private List<String> tuketenList;
+
+    public List<String> getTuketenList() {
+        return tuketenList;
+    }
+
+    @Inject
+    private String resultInject;
+
+    public String getResultInject() {
+        return resultInject;
+    }
 }
 //alternatife
 //qualifier

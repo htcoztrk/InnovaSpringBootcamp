@@ -14,7 +14,7 @@ import java.lang.annotation.Target;
 import javax.inject.Qualifier;
 
 @Qualifier
-@Target({TYPE,METHOD,PARAMETER,FIELD})
+@Target({TYPE, METHOD, PARAMETER, FIELD})
 @Retention(RUNTIME)
 @Documented
 public @interface QualifierCokluSecim {

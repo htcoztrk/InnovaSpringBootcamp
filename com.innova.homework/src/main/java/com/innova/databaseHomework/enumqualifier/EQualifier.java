@@ -1,4 +1,5 @@
 package com.innova.databaseHomework.enumqualifier;
+
 import static java.lang.annotation.ElementType.FIELD;
 import static java.lang.annotation.ElementType.METHOD;
 import static java.lang.annotation.ElementType.PARAMETER;
@@ -10,10 +11,11 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
 
 import javax.inject.Qualifier;
+
 @Qualifier
-@Target({ TYPE, METHOD, PARAMETER, FIELD })
+@Target({TYPE, METHOD, PARAMETER, FIELD})
 @Retention(RUNTIME)
 @Documented
 public @interface EQualifier {
-   EDatabaseName value();
-  }
+    EDatabaseName value();
+}

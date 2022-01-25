@@ -12,28 +12,29 @@ public class AdminController implements IDaoConnection<AdminDto> {
     private AdminDao adminDao;
     private AdminDto adminDto;
     private List<AdminDto> adminList;
+
     @Override
     public void create(AdminDto adminDto) {
-        adminDao=new AdminDao();
+        adminDao = new AdminDao();
         adminDao.create(adminDto);
     }
 
     @Override
     public void update(AdminDto adminDto) {
-      adminDao =new AdminDao();
-      adminDao.update(adminDto);
+        adminDao = new AdminDao();
+        adminDao.update(adminDto);
     }
 
     @Override
     public void delete(AdminDto adminDto) {
-     adminDao=new AdminDao();
-     adminDao.delete(adminDto);
+        adminDao = new AdminDao();
+        adminDao.delete(adminDto);
     }
 
     @Override
     public ArrayList<AdminDto> list() {
-        adminDao=new AdminDao();
-      return  adminDao.list();
+        adminDao = new AdminDao();
+        return adminDao.list();
 
     }
 }

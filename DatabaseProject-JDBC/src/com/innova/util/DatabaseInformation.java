@@ -11,19 +11,20 @@ abstract public class DatabaseInformation {
     private String forNameData;
 
     //constructor without parameter
-    public DatabaseInformation(){
-        this.url="jdbc:postgresql://localhost:5432/innova1";
-        this.userName="postgres";
-        this.userPassword="12345";
-        this.forNameData="org.postgresql.Driver";
+    public DatabaseInformation() {
+        this.url = "jdbc:postgresql://localhost:5432/innova1";
+        this.userName = "postgres";
+        this.userPassword = "12345";
+        this.forNameData = "org.postgresql.Driver";
 
     }
-   //constructor with parameter
-    public DatabaseInformation(String url,String userName,String userPassword,String forNameData){
-        this.url=url;
-        this.userName=userName;
-        this.userPassword=userPassword;
-        this.forNameData=forNameData;
+
+    //constructor with parameter
+    public DatabaseInformation(String url, String userName, String userPassword, String forNameData) {
+        this.url = url;
+        this.userName = userName;
+        this.userPassword = userPassword;
+        this.forNameData = forNameData;
     }
 
     @Override

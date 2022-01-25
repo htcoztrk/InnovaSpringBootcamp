@@ -16,7 +16,7 @@
     limitations under the License.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.innova.homework</groupId>
@@ -24,7 +24,9 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>WildFly Quickstarts: com.innova.homework</name>
-    <description>A starter Java EE 7 webapp project for use on JBoss WildFly / WildFly, generated from the jboss-javaee6-webapp archetype</description>
+    <description>A starter Java EE 7 webapp project for use on JBoss WildFly / WildFly, generated from the
+        jboss-javaee6-webapp archetype
+    </description>
 
     <url>http://wildfly.org</url>
     <licenses>

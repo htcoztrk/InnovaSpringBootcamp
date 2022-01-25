@@ -1,10 +1,10 @@
 package com.innova.databaseHomework.manuel_IOC_CDI;
 
-public class Mongodb implements Database{
+public class Mongodb implements Database {
 
-	@Override
-	public void databaseName() {
-		System.out.println("MongoDB");
-	}
+    @Override
+    public void databaseName() {
+        System.out.println("MongoDB");
+    }
 
 }
