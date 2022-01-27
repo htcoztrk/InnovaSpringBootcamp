@@ -1,0 +1,372 @@
+2022-01-27 00:14:50.915  INFO 11780 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Starting SpringMvcApplication using Java 16.0.1 on HP-Bilgisayar2020 with PID 11780 (C:\Users\Hp\Desktop\Innova_Patika\SpringMVC\target\classes started by Hp in C:\Users\Hp\Desktop\Innova_Patika\SpringMVC)
+2022-01-27 00:14:50.917  INFO 11780 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : No active profile set, falling back to default profiles: default
+2022-01-27 00:14:51.057  INFO 11780 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 00:14:51.058  INFO 11780 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 00:14:54.788  INFO 11780 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-27 00:14:54.817  INFO 11780 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-27 00:14:54.819  INFO 11780 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-27 00:14:55.392  INFO 11780 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-27 00:14:55.394  INFO 11780 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4251 ms
+2022-01-27 00:14:56.657  INFO 11780 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-01-27 00:14:56.837  WARN 11780 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-01-27 00:14:57.605  INFO 11780 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-27 00:14:57.623  INFO 11780 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-01-27 00:14:57.862  INFO 11780 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-27 00:14:57.927  INFO 11780 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Started SpringMvcApplication in 8.254 seconds (JVM running for 13.511)
+2022-01-27 00:15:55.902  INFO 10372 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Starting SpringMvcApplication using Java 16.0.1 on HP-Bilgisayar2020 with PID 10372 (C:\Users\Hp\Desktop\Innova_Patika\SpringMVC\target\classes started by Hp in C:\Users\Hp\Desktop\Innova_Patika\SpringMVC)
+2022-01-27 00:15:55.908  INFO 10372 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : No active profile set, falling back to default profiles: default
+2022-01-27 00:15:56.160  INFO 10372 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 00:15:56.162  INFO 10372 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 00:16:00.053  INFO 10372 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-27 00:16:00.108  INFO 10372 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-27 00:16:00.117  INFO 10372 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-27 00:16:00.534  INFO 10372 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-27 00:16:00.537  INFO 10372 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4373 ms
+2022-01-27 00:16:01.797  INFO 10372 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-01-27 00:16:02.015  WARN 10372 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-01-27 00:16:02.761  INFO 10372 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-27 00:16:02.781  INFO 10372 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-01-27 00:16:03.041  INFO 10372 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-27 00:16:03.102  INFO 10372 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Started SpringMvcApplication in 8.548 seconds (JVM running for 14.29)
+2022-01-27 00:46:00.674  INFO 7144 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Starting SpringMvcApplication using Java 16.0.1 on HP-Bilgisayar2020 with PID 7144 (C:\Users\Hp\Desktop\Innova_Patika\SpringMVC\target\classes started by Hp in C:\Users\Hp\Desktop\Innova_Patika\SpringMVC)
+2022-01-27 00:46:00.703  INFO 7144 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : No active profile set, falling back to default profiles: default
+2022-01-27 00:46:01.593  INFO 7144 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 00:46:01.594  INFO 7144 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 00:46:13.836  INFO 7144 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-27 00:46:13.912  INFO 7144 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-27 00:46:13.913  INFO 7144 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-27 00:46:14.311  INFO 7144 --- [restartedMain] o.a.c.c.C.[.[localhost].[/innova]        : Initializing Spring embedded WebApplicationContext
+2022-01-27 00:46:14.312  INFO 7144 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 12714 ms
+2022-01-27 00:46:16.047  INFO 7144 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-01-27 00:46:16.256  WARN 7144 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-01-27 00:46:17.093  INFO 7144 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-27 00:46:17.144  INFO 7144 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-01-27 00:46:17.444  INFO 7144 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/innova'
+2022-01-27 00:46:17.530  INFO 7144 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Started SpringMvcApplication in 24.37 seconds (JVM running for 45.805)
+2022-01-27 00:46:18.367  INFO 7144 --- [RMI TCP Connection(3)-192.168.10.118] o.a.c.c.C.[.[localhost].[/innova]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 00:46:18.368  INFO 7144 --- [RMI TCP Connection(3)-192.168.10.118] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-27 00:46:18.372  INFO 7144 --- [RMI TCP Connection(3)-192.168.10.118] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-01-27 00:48:46.358  INFO 14544 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Starting SpringMvcApplication using Java 16.0.1 on HP-Bilgisayar2020 with PID 14544 (C:\Users\Hp\Desktop\Innova_Patika\SpringMVC\target\classes started by Hp in C:\Users\Hp\Desktop\Innova_Patika\SpringMVC)
+2022-01-27 00:48:46.363  INFO 14544 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : No active profile set, falling back to default profiles: default
+2022-01-27 00:48:46.565  INFO 14544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 00:48:46.567  INFO 14544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 00:48:50.849  INFO 14544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-27 00:48:50.894  INFO 14544 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-27 00:48:50.895  INFO 14544 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-27 00:48:51.259  INFO 14544 --- [restartedMain] o.a.c.c.C.[.[localhost].[/innova]        : Initializing Spring embedded WebApplicationContext
+2022-01-27 00:48:51.261  INFO 14544 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4690 ms
+2022-01-27 00:48:52.226  INFO 14544 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-01-27 00:48:52.367  WARN 14544 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-01-27 00:48:52.978  INFO 14544 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-27 00:48:52.993  INFO 14544 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-01-27 00:48:53.267  INFO 14544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/innova'
+2022-01-27 00:48:53.332  INFO 14544 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Started SpringMvcApplication in 8.813 seconds (JVM running for 13.689)
+2022-01-27 00:50:14.236  INFO 14544 --- [RMI TCP Connection(3)-192.168.10.118] o.a.c.c.C.[.[localhost].[/innova]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 00:50:14.239  INFO 14544 --- [RMI TCP Connection(3)-192.168.10.118] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-27 00:50:14.245  INFO 14544 --- [RMI TCP Connection(3)-192.168.10.118] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-01-27 00:53:17.934  INFO 14468 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Starting SpringMvcApplication using Java 16.0.1 on HP-Bilgisayar2020 with PID 14468 (C:\Users\Hp\Desktop\Innova_Patika\SpringMVC\target\classes started by Hp in C:\Users\Hp\Desktop\Innova_Patika\SpringMVC)
+2022-01-27 00:53:17.938  INFO 14468 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : No active profile set, falling back to default profiles: default
+2022-01-27 00:53:18.141  INFO 14468 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 00:53:18.142  INFO 14468 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 00:53:22.287  INFO 14468 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-27 00:53:22.316  INFO 14468 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-27 00:53:22.317  INFO 14468 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-27 00:53:22.679  INFO 14468 --- [restartedMain] o.a.c.c.C.[.[localhost].[/innova]        : Initializing Spring embedded WebApplicationContext
+2022-01-27 00:53:22.681  INFO 14468 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4537 ms
+2022-01-27 00:53:23.799  INFO 14468 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-01-27 00:53:23.975  WARN 14468 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-01-27 00:53:24.704  INFO 14468 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-27 00:53:24.723  INFO 14468 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/status'
+2022-01-27 00:53:24.951  INFO 14468 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/innova'
+2022-01-27 00:53:25.009  INFO 14468 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Started SpringMvcApplication in 8.962 seconds (JVM running for 13.617)
+2022-01-27 02:02:43.271  INFO 13276 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Starting SpringMvcApplication using Java 16.0.1 on HP-Bilgisayar2020 with PID 13276 (C:\Users\Hp\Desktop\Innova_Patika\SpringMVC\target\classes started by Hp in C:\Users\Hp\Desktop\Innova_Patika\SpringMVC)
+2022-01-27 02:02:43.289  INFO 13276 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : No active profile set, falling back to default profiles: default
+2022-01-27 02:02:43.881  INFO 13276 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 02:02:43.900  INFO 13276 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 02:02:51.748  INFO 13276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-27 02:02:51.820  INFO 13276 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-27 02:02:51.822  INFO 13276 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-27 02:02:53.334  INFO 13276 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-27 02:02:53.414  INFO 13276 --- [restartedMain] o.a.c.c.C.[.[localhost].[/innova]        : Initializing Spring embedded WebApplicationContext
+2022-01-27 02:02:53.415  INFO 13276 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9513 ms
+2022-01-27 02:02:54.973  INFO 13276 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-01-27 02:02:55.335  WARN 13276 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-01-27 02:02:56.086  INFO 13276 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-27 02:02:56.131  INFO 13276 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/status'
+2022-01-27 02:02:56.449  INFO 13276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/innova'
+2022-01-27 02:02:56.516  INFO 13276 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Started SpringMvcApplication in 15.748 seconds (JVM running for 21.793)
+2022-01-27 02:07:16.812  INFO 9076 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Starting SpringMvcApplication using Java 16.0.1 on HP-Bilgisayar2020 with PID 9076 (C:\Users\Hp\Desktop\Innova_Patika\SpringMVC\target\classes started by Hp in C:\Users\Hp\Desktop\Innova_Patika\SpringMVC)
+2022-01-27 02:07:16.814  INFO 9076 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : No active profile set, falling back to default profiles: default
+2022-01-27 02:07:16.994  INFO 9076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 02:07:16.995  INFO 9076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 02:07:23.766  INFO 9076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-27 02:07:23.840  INFO 9076 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-27 02:07:23.842  INFO 9076 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-27 02:07:25.220  INFO 9076 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-27 02:07:25.314  INFO 9076 --- [restartedMain] o.a.c.c.C.[.[localhost].[/innova]        : Initializing Spring embedded WebApplicationContext
+2022-01-27 02:07:25.314  INFO 9076 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8316 ms
+2022-01-27 02:07:26.883  INFO 9076 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-01-27 02:07:27.177  WARN 9076 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-01-27 02:07:28.260  INFO 9076 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-27 02:07:28.288  INFO 9076 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/status'
+2022-01-27 02:07:28.672  INFO 9076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/innova'
+2022-01-27 02:07:28.782  INFO 9076 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Started SpringMvcApplication in 13.338 seconds (JVM running for 18.112)
+2022-01-27 02:15:22.514  INFO 1820 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Starting SpringMvcApplication using Java 16.0.1 on HP-Bilgisayar2020 with PID 1820 (C:\Users\Hp\Desktop\Innova_Patika\SpringMVC\target\classes started by Hp in C:\Users\Hp\Desktop\Innova_Patika\SpringMVC)
+2022-01-27 02:15:22.517  INFO 1820 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : No active profile set, falling back to default profiles: default
+2022-01-27 02:15:22.746  INFO 1820 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 02:15:22.747  INFO 1820 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 02:15:35.293  INFO 1820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-27 02:15:35.388  INFO 1820 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-27 02:15:35.389  INFO 1820 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-27 02:15:36.857  INFO 1820 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-27 02:15:36.939  INFO 1820 --- [restartedMain] o.a.c.c.C.[.[localhost].[/innova]        : Initializing Spring embedded WebApplicationContext
+2022-01-27 02:15:36.940  INFO 1820 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 14191 ms
+2022-01-27 02:15:38.457  INFO 1820 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-01-27 02:15:38.812  WARN 1820 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-01-27 02:15:39.748  INFO 1820 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-27 02:15:39.772  INFO 1820 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/status'
+2022-01-27 02:15:40.115  INFO 1820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/innova'
+2022-01-27 02:15:40.214  INFO 1820 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Started SpringMvcApplication in 18.776 seconds (JVM running for 22.437)
+2022-01-27 02:16:48.427  INFO 11148 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Starting SpringMvcApplication using Java 16.0.1 on HP-Bilgisayar2020 with PID 11148 (C:\Users\Hp\Desktop\Innova_Patika\SpringMVC\target\classes started by Hp in C:\Users\Hp\Desktop\Innova_Patika\SpringMVC)
+2022-01-27 02:16:48.430  INFO 11148 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : No active profile set, falling back to default profiles: default
+2022-01-27 02:16:48.570  INFO 11148 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 02:16:48.571  INFO 11148 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 02:16:53.686  INFO 11148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-27 02:16:53.737  INFO 11148 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-27 02:16:53.738  INFO 11148 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-27 02:16:54.993  INFO 11148 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-27 02:16:55.040  INFO 11148 --- [restartedMain] o.a.c.c.C.[.[localhost].[/innova]        : Initializing Spring embedded WebApplicationContext
+2022-01-27 02:16:55.044  INFO 11148 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6472 ms
+2022-01-27 02:16:56.237  INFO 11148 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-01-27 02:16:56.439  WARN 11148 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-01-27 02:16:57.322  INFO 11148 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-27 02:16:57.342  INFO 11148 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/status'
+2022-01-27 02:16:57.638  INFO 11148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/innova'
+2022-01-27 02:16:57.715  INFO 11148 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Started SpringMvcApplication in 10.405 seconds (JVM running for 14.182)
+2022-01-27 02:17:45.102  INFO 9244 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Starting SpringMvcApplication using Java 16.0.1 on HP-Bilgisayar2020 with PID 9244 (C:\Users\Hp\Desktop\Innova_Patika\SpringMVC\target\classes started by Hp in C:\Users\Hp\Desktop\Innova_Patika\SpringMVC)
+2022-01-27 02:17:45.106  INFO 9244 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : No active profile set, falling back to default profiles: default
+2022-01-27 02:17:45.314  INFO 9244 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 02:17:45.315  INFO 9244 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 02:17:48.863  INFO 9244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-27 02:17:48.883  INFO 9244 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-27 02:17:48.884  INFO 9244 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-27 02:17:49.862  INFO 9244 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-27 02:17:49.897  INFO 9244 --- [restartedMain] o.a.c.c.C.[.[localhost].[/innova]        : Initializing Spring embedded WebApplicationContext
+2022-01-27 02:17:49.898  INFO 9244 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4582 ms
+2022-01-27 02:17:51.022  INFO 9244 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-01-27 02:17:51.223  WARN 9244 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-01-27 02:17:51.875  INFO 9244 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-27 02:17:51.895  INFO 9244 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/status'
+2022-01-27 02:17:52.253  INFO 9244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/innova'
+2022-01-27 02:17:52.328  INFO 9244 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Started SpringMvcApplication in 8.936 seconds (JVM running for 14.52)
+2022-01-27 02:26:58.790  INFO 2172 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Starting SpringMvcApplication using Java 16.0.1 on HP-Bilgisayar2020 with PID 2172 (C:\Users\Hp\Desktop\Innova_Patika\SpringMVC\target\classes started by Hp in C:\Users\Hp\Desktop\Innova_Patika\SpringMVC)
+2022-01-27 02:26:59.163  INFO 2172 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : No active profile set, falling back to default profiles: default
+2022-01-27 02:27:00.419  INFO 2172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 02:27:00.422  INFO 2172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 02:27:09.066  INFO 2172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-27 02:27:09.140  INFO 2172 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-27 02:27:09.142  INFO 2172 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-27 02:27:10.443  INFO 2172 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-27 02:27:10.522  INFO 2172 --- [restartedMain] o.a.c.c.C.[.[localhost].[/innova]        : Initializing Spring embedded WebApplicationContext
+2022-01-27 02:27:10.523  INFO 2172 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 10096 ms
+2022-01-27 02:27:12.343  INFO 2172 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-01-27 02:27:12.743  WARN 2172 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-01-27 02:27:13.724  INFO 2172 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-27 02:27:13.771  INFO 2172 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/status'
+2022-01-27 02:27:14.215  INFO 2172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/innova'
+2022-01-27 02:27:14.263  INFO 2172 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Started SpringMvcApplication in 18.797 seconds (JVM running for 26.555)
+2022-01-27 13:57:12.717  INFO 5748 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Starting SpringMvcApplication using Java 16.0.1 on HP-Bilgisayar2020 with PID 5748 (C:\Users\Hp\Desktop\Innova_Patika\SpringMVC\target\classes started by Hp in C:\Users\Hp\Desktop\Innova_Patika\SpringMVC)
+2022-01-27 13:57:12.740  INFO 5748 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : No active profile set, falling back to default profiles: default
+2022-01-27 13:57:13.712  INFO 5748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 13:57:13.714  INFO 5748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 13:57:39.886  INFO 5748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-27 13:57:40.045  INFO 5748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-27 13:57:40.046  INFO 5748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-27 13:57:45.028  INFO 5748 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-27 13:57:45.414  INFO 5748 --- [restartedMain] o.a.c.c.C.[.[localhost].[/innova]        : Initializing Spring embedded WebApplicationContext
+2022-01-27 13:57:45.416  INFO 5748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 31695 ms
+2022-01-27 13:57:48.580  INFO 5748 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-01-27 13:57:49.979  INFO 5748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-27 13:57:50.009  INFO 5748 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/status'
+2022-01-27 13:57:50.618  INFO 5748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/innova'
+2022-01-27 13:57:50.729  INFO 5748 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Started SpringMvcApplication in 48.74 seconds (JVM running for 86.74)
+2022-01-27 13:57:51.595  INFO 5748 --- [RMI TCP Connection(1)-192.168.10.118] o.a.c.c.C.[.[localhost].[/innova]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 13:57:51.597  INFO 5748 --- [RMI TCP Connection(1)-192.168.10.118] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-27 13:57:51.602  INFO 5748 --- [RMI TCP Connection(1)-192.168.10.118] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-01-27 14:21:49.651  INFO 12968 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Starting SpringMvcApplication using Java 16.0.1 on HP-Bilgisayar2020 with PID 12968 (C:\Users\Hp\Desktop\Innova_Patika\SpringMVC\target\classes started by Hp in C:\Users\Hp\Desktop\Innova_Patika\SpringMVC)
+2022-01-27 14:21:49.684  INFO 12968 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : No active profile set, falling back to default profiles: default
+2022-01-27 14:21:50.903  INFO 12968 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 14:21:50.906  INFO 12968 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 14:22:06.223  INFO 12968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-27 14:22:06.333  INFO 12968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-27 14:22:06.335  INFO 12968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-27 14:22:08.324  INFO 12968 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-27 14:22:08.473  INFO 12968 --- [restartedMain] o.a.c.c.C.[.[localhost].[/innova]        : Initializing Spring embedded WebApplicationContext
+2022-01-27 14:22:08.474  INFO 12968 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 17564 ms
+2022-01-27 14:22:11.423  INFO 12968 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-01-27 14:22:13.257  INFO 12968 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-27 14:22:13.308  INFO 12968 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/status'
+2022-01-27 14:22:14.106  INFO 12968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/innova'
+2022-01-27 14:22:14.217  INFO 12968 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Started SpringMvcApplication in 31.169 seconds (JVM running for 59.044)
+2022-01-27 14:22:14.794  INFO 12968 --- [RMI TCP Connection(5)-192.168.10.118] o.a.c.c.C.[.[localhost].[/innova]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 14:22:14.796  INFO 12968 --- [RMI TCP Connection(5)-192.168.10.118] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-27 14:22:14.803  INFO 12968 --- [RMI TCP Connection(5)-192.168.10.118] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2022-01-27 16:18:41.576  INFO 16336 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Starting SpringMvcApplication using Java 16.0.1 on HP-Bilgisayar2020 with PID 16336 (C:\Users\Hp\Desktop\Innova_Patika\SpringMVC\target\classes started by Hp in C:\Users\Hp\Desktop\Innova_Patika\SpringMVC)
+2022-01-27 16:18:41.605  INFO 16336 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : No active profile set, falling back to default profiles: default
+2022-01-27 16:18:42.384  INFO 16336 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 16:18:42.384  INFO 16336 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 16:18:57.870  INFO 16336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-27 16:18:57.961  INFO 16336 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-27 16:18:57.961  INFO 16336 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-27 16:18:59.318  INFO 16336 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-27 16:18:59.398  INFO 16336 --- [restartedMain] o.a.c.c.C.[.[localhost].[/innova]        : Initializing Spring embedded WebApplicationContext
+2022-01-27 16:18:59.398  INFO 16336 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 17004 ms
+2022-01-27 16:19:01.719  INFO 16336 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-01-27 16:19:02.613  INFO 16336 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-27 16:19:02.629  INFO 16336 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/status'
+2022-01-27 16:19:02.957  INFO 16336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/innova'
+2022-01-27 16:19:03.030  INFO 16336 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Started SpringMvcApplication in 29.503 seconds (JVM running for 42.602)
+2022-01-27 16:22:33.458  INFO 10868 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Starting SpringMvcApplication using Java 16.0.1 on HP-Bilgisayar2020 with PID 10868 (C:\Users\Hp\Desktop\Innova_Patika\SpringMVC\target\classes started by Hp in C:\Users\Hp\Desktop\Innova_Patika\SpringMVC)
+2022-01-27 16:22:33.462  INFO 10868 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : No active profile set, falling back to default profiles: default
+2022-01-27 16:22:33.737  INFO 10868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 16:22:33.741  INFO 10868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 16:22:38.074  INFO 10868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-27 16:22:38.122  INFO 10868 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-27 16:22:38.122  INFO 10868 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-27 16:22:39.188  INFO 10868 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-27 16:22:39.251  INFO 10868 --- [restartedMain] o.a.c.c.C.[.[localhost].[/innova]        : Initializing Spring embedded WebApplicationContext
+2022-01-27 16:22:39.255  INFO 10868 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5514 ms
+2022-01-27 16:22:40.317  INFO 10868 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-01-27 16:22:41.068  INFO 10868 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-27 16:22:41.084  INFO 10868 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/status'
+2022-01-27 16:22:41.347  INFO 10868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/innova'
+2022-01-27 16:22:41.395  INFO 10868 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Started SpringMvcApplication in 11.495 seconds (JVM running for 23.491)
+2022-01-27 16:28:07.184  INFO 10868 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/innova]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 16:28:07.184  INFO 10868 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-27 16:28:07.192  INFO 10868 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-01-27 16:31:50.260  INFO 14724 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Starting SpringMvcApplication using Java 16.0.1 on HP-Bilgisayar2020 with PID 14724 (C:\Users\Hp\Desktop\Innova_Patika\SpringMVC\target\classes started by Hp in C:\Users\Hp\Desktop\Innova_Patika\SpringMVC)
+2022-01-27 16:31:50.264  INFO 14724 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : No active profile set, falling back to default profiles: default
+2022-01-27 16:31:50.656  INFO 14724 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 16:31:50.660  INFO 14724 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 16:31:58.793  INFO 14724 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-27 16:31:58.852  INFO 14724 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-27 16:31:58.852  INFO 14724 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-27 16:32:00.184  INFO 14724 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-27 16:32:00.264  INFO 14724 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-27 16:32:00.264  INFO 14724 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9592 ms
+2022-01-27 16:32:01.966  INFO 14724 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-01-27 16:32:02.939  INFO 14724 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-27 16:32:02.955  INFO 14724 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/status'
+2022-01-27 16:32:03.277  INFO 14724 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-27 16:32:03.345  INFO 14724 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Started SpringMvcApplication in 15.929 seconds (JVM running for 30.445)
+2022-01-27 16:32:13.854  INFO 14724 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 16:32:13.854  INFO 14724 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-27 16:32:13.858  INFO 14724 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-01-27 17:37:33.578  INFO 3544 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Starting SpringMvcApplication using Java 16.0.1 on HP-Bilgisayar2020 with PID 3544 (C:\Users\Hp\Desktop\Innova_Patika\SpringMVC\target\classes started by Hp in C:\Users\Hp\Desktop\Innova_Patika\SpringMVC)
+2022-01-27 17:37:33.607  INFO 3544 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : No active profile set, falling back to default profiles: default
+2022-01-27 17:37:35.409  INFO 3544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 17:37:35.462  INFO 3544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 17:38:58.964  INFO 3544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-27 17:38:59.319  INFO 3544 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-27 17:38:59.320  INFO 3544 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-27 17:39:14.889  INFO 3544 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-27 17:39:15.292  INFO 3544 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-27 17:39:15.293  INFO 3544 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 99803 ms
+2022-01-27 17:39:21.349  INFO 3544 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-01-27 17:39:24.408  INFO 3544 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-27 17:39:24.607  INFO 3544 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/status'
+2022-01-27 17:39:29.427  INFO 3544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-27 17:39:29.661  INFO 3544 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Started SpringMvcApplication in 131.361 seconds (JVM running for 179.32)
+2022-01-27 17:39:39.307  INFO 3544 --- [RMI TCP Connection(2)-192.168.10.118] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 17:39:39.308  INFO 3544 --- [RMI TCP Connection(2)-192.168.10.118] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-27 17:39:39.313  INFO 3544 --- [RMI TCP Connection(2)-192.168.10.118] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-01-27 17:43:18.610  INFO 8120 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Starting SpringMvcApplication using Java 16.0.1 on HP-Bilgisayar2020 with PID 8120 (C:\Users\Hp\Desktop\Innova_Patika\SpringMVC\target\classes started by Hp in C:\Users\Hp\Desktop\Innova_Patika\SpringMVC)
+2022-01-27 17:43:18.620  INFO 8120 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : No active profile set, falling back to default profiles: default
+2022-01-27 17:43:19.078  INFO 8120 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 17:43:19.079  INFO 8120 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 17:43:27.024  INFO 8120 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-27 17:43:27.083  INFO 8120 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-27 17:43:27.084  INFO 8120 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-27 17:43:28.473  INFO 8120 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-27 17:43:28.607  INFO 8120 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-27 17:43:28.608  INFO 8120 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9524 ms
+2022-01-27 17:43:30.504  INFO 8120 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-01-27 17:43:31.390  INFO 8120 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-27 17:43:31.415  INFO 8120 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/status'
+2022-01-27 17:43:31.855  INFO 8120 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-27 17:43:31.934  INFO 8120 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Started SpringMvcApplication in 17.383 seconds (JVM running for 30.504)
+2022-01-27 17:43:58.852  INFO 8120 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 17:43:58.854  INFO 8120 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-27 17:43:58.859  INFO 8120 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-01-27 17:47:40.995  INFO 15276 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Starting SpringMvcApplication using Java 16.0.1 on HP-Bilgisayar2020 with PID 15276 (C:\Users\Hp\Desktop\Innova_Patika\SpringMVC\target\classes started by Hp in C:\Users\Hp\Desktop\Innova_Patika\SpringMVC)
+2022-01-27 17:47:41.038  INFO 15276 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : No active profile set, falling back to default profiles: default
+2022-01-27 17:47:42.297  INFO 15276 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 17:47:42.299  INFO 15276 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 17:48:11.025  INFO 15276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-27 17:48:11.157  INFO 15276 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-27 17:48:11.159  INFO 15276 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-27 17:48:13.363  INFO 15276 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-27 17:48:13.519  INFO 15276 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-27 17:48:13.521  INFO 15276 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 31164 ms
+2022-01-27 17:48:16.883  INFO 15276 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-01-27 17:48:18.430  INFO 15276 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-27 17:48:18.534  INFO 15276 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/status'
+2022-01-27 17:48:20.690  INFO 15276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-27 17:48:20.821  INFO 15276 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Started SpringMvcApplication in 52.749 seconds (JVM running for 96.22)
+2022-01-27 17:48:44.582  INFO 15276 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 17:48:44.584  INFO 15276 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-27 17:48:44.587  INFO 15276 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-01-27 19:25:56.615  INFO 9252 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Starting SpringMvcApplication using Java 16.0.1 on HP-Bilgisayar2020 with PID 9252 (C:\Users\Hp\Desktop\Innova_Patika\SpringMVC\target\classes started by Hp in C:\Users\Hp\Desktop\Innova_Patika\SpringMVC)
+2022-01-27 19:25:56.689  INFO 9252 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : No active profile set, falling back to default profiles: default
+2022-01-27 19:25:57.936  INFO 9252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 19:25:57.939  INFO 9252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 19:26:42.886  INFO 9252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-27 19:26:43.054  INFO 9252 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-27 19:26:43.056  INFO 9252 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-27 19:26:48.283  INFO 9252 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-27 19:26:48.524  INFO 9252 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-27 19:26:48.525  INFO 9252 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 50579 ms
+2022-01-27 19:26:53.518  INFO 9252 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-01-27 19:26:55.449  INFO 9252 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-27 19:26:55.467  INFO 9252 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/status'
+2022-01-27 19:26:56.699  INFO 9252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-27 19:26:56.827  INFO 9252 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Started SpringMvcApplication in 69.889 seconds (JVM running for 107.891)
+2022-01-27 19:26:57.915  INFO 9252 --- [RMI TCP Connection(2)-192.168.10.118] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 19:26:57.918  INFO 9252 --- [RMI TCP Connection(2)-192.168.10.118] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-27 19:26:57.924  INFO 9252 --- [RMI TCP Connection(2)-192.168.10.118] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2022-01-27 19:31:42.913  INFO 15168 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Starting SpringMvcApplication using Java 16.0.1 on HP-Bilgisayar2020 with PID 15168 (C:\Users\Hp\Desktop\Innova_Patika\SpringMVC\target\classes started by Hp in C:\Users\Hp\Desktop\Innova_Patika\SpringMVC)
+2022-01-27 19:31:42.952  INFO 15168 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : No active profile set, falling back to default profiles: default
+2022-01-27 19:31:44.349  INFO 15168 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 19:31:44.351  INFO 15168 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 19:31:57.352  INFO 15168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-27 19:31:57.440  INFO 15168 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-27 19:31:57.442  INFO 15168 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-27 19:31:58.766  INFO 15168 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-27 19:31:58.843  INFO 15168 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-27 19:31:58.844  INFO 15168 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 14487 ms
+2022-01-27 19:32:00.372  INFO 15168 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-01-27 19:32:01.223  INFO 15168 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-27 19:32:01.238  INFO 15168 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/status'
+2022-01-27 19:32:01.535  INFO 15168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-27 19:32:01.603  INFO 15168 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Started SpringMvcApplication in 24.048 seconds (JVM running for 52.897)
+2022-01-27 19:32:09.994  INFO 15168 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 19:32:09.996  INFO 15168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-27 19:32:10.005  INFO 15168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2022-01-27 19:48:13.653  INFO 6620 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Starting SpringMvcApplication using Java 16.0.1 on HP-Bilgisayar2020 with PID 6620 (C:\Users\Hp\Desktop\Innova_Patika\SpringMVC\target\classes started by Hp in C:\Users\Hp\Desktop\Innova_Patika\SpringMVC)
+2022-01-27 19:48:13.687  INFO 6620 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : No active profile set, falling back to default profiles: default
+2022-01-27 19:48:16.091  INFO 6620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-27 19:48:16.093  INFO 6620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-27 19:49:40.393  INFO 6620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-27 19:49:41.152  INFO 6620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-27 19:49:41.154  INFO 6620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-27 19:49:54.987  INFO 6620 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-27 19:49:55.558  INFO 6620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-27 19:49:55.559  INFO 6620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 99417 ms
+2022-01-27 19:50:05.055  INFO 6620 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-01-27 19:50:08.640  INFO 6620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-27 19:50:08.655  INFO 6620 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/status'
+2022-01-27 19:50:16.235  INFO 6620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-27 19:50:16.478  INFO 6620 --- [restartedMain] c.e.springmvc.SpringMvcApplication       : Started SpringMvcApplication in 144.184 seconds (JVM running for 184.255)
+2022-01-27 19:50:29.181  INFO 6620 --- [RMI TCP Connection(2)-192.168.10.118] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-27 19:50:29.183  INFO 6620 --- [RMI TCP Connection(2)-192.168.10.118] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-27 19:50:29.187  INFO 6620 --- [RMI TCP Connection(2)-192.168.10.118] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
